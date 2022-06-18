@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="main.css" />
+		<title>
+			section .box-game .game-date .game-release-date { display: flex;
+			justify-content: flex-start; align-items: center; } Finder Main
+		</title>
+	</head>
+
+	<body>
+		<header>
+			<div class="header-logo">
+				<img src="/assets/assets-login/GAMEFINDER.svg" alt="gamefinder-logo" />
+			</div>
+			<div class="header-search">
+				<img src="/assets/assets-main/icons/search.svg" alt="search-icon" />
+				<input
+					type="text"
+					name="search"
+					id="search"
+					role="search"
+					placeholder="Search games..."
+					autocomplete="off"
+				/>
+			</div>
+			<div class="header-item">
+				<a href="/Login/index.html" alt="Log out"> Log out </a>
+				<img src="/assets/assets-main/icons/custom.svg" alt="custom-icon" />
+			</div>
+		</header>
+
+		<div class="content-new-dark">
+			<div class="new-wrapper">
+				<h1>New and trending</h1>
+				<p>Based on player counts and release date</p>
+			</div>
+
+			<div class="dark-mode-wrapper">
+				<div id="change-mode" class="dark-mode">
+					<p class="dark-mp exo_font" style="font-weight: 400">Dark mode</p>
+					<div class="on-btn">
+						<p id="circle-lm">ON</p>
+						<div class="on-circle"></div>
+					</div>
+				</div>
+
+				<div class="change-cards">
+					<div id="multi" class="change-btn relative">
+						<img
+							class="two-cards absolute"
+							src="/assets/assets-main/icons/shape.svg"
+							alt="change-card"
+						/>
+					</div>
+					<div id="single-card" class="change-btn relative disable">
+						<img
+							class="one-card absolute"
+							src="/assets/assets-main/icons/shape2.svg"
+							alt="change-card"
+						/>
+					</div>
+				</div>
+
+				<div class="card-change"></div>
+			</div>
+		</div>
+
+		<div class="page-content">
+			<aside>
+				<nav>
+					<div class="first-content">
+						<h3 class="active">Home</h3>
+						<h3>Reviews</h3>
+						<h3>New Releases</h3>
+					</div>
+					<div class="second-content">
+						<div class="second-align">
+							<img src="/assets/assets-main/icons/star.svg" />
+							<p>This week</p>
+						</div>
+						<div class="second-align">
+							<img src="/assets/assets-main/icons/calendar.svg" />
+							<p>This month</p>
+						</div>
+						<div class="second-align">
+							<img src="/assets/assets-main/icons/timer.svg" />
+							<p>Coming soon</p>
+						</div>
+					</div>
+
+					<div class="third-content">
+						<h3>Popular</h3>
+						<div class="third-align">
+							<img src="/assets/assets-main/icons/greensearch.svg" />
+							<p>Last searches</p>
+						</div>
+						<div class="third-align">
+							<img src="/assets/assets-main/icons/thumb.svg" />
+							<p>Best of the year</p>
+						</div>
+					</div>
+				</nav>
+			</aside>
+
+			<section id="cards_section">
+				<div id="cards" class="cards-container"></div>
+			</section>
+		</div>
+
+		<div class="modal-wrapper invisible"></div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
+		<script src="/Main/main.js"></script>
+		<script
+			src="https://kit.fontawesome.com/2e910a4413.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

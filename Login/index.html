@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Adding SEO for optimization-->
+		<meta name="description" content="" />
+		<!-- Adding links -->
+		<link
+			rel="shortcut icon"
+			href="#"
+			type="GameFinder-shortcut-icon"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<title>Gamefinder</title>
+	</head>
+
+	<body>
+		<!-- Header -->
+		<header
+			class="absolute display_flex"
+			style="justify-content: space-between"
+		>
+			<div class="logo_container">
+				<a class="logo" href="#">
+					<img
+						src="/assets/assets-login/GAMEFINDER.svg"
+						alt="Gamefinder-logo"
+					/>
+				</a>
+			</div>
+      <div
+				class="dark_light_mode display_flex"
+				style="justify-content: flex-start"
+			>
+				<div class="circle-dlm display_flex">
+					<i class="fa-solid fa-sun" style="color: #515151"></i>
+				</div>
+			</div>
+		</header>
+
+    <!-- Body content -->
+    <div class="container absolute">
+      <div class="welcome">
+        <h4 class="login exo_font">Welcome! Log in or register</h4>
+        <span class="login_span exo_font">
+          Log in to find the games you're looking for!
+        </span>
+      </div>
+
+      <form id="form" action="#">
+        <div class="inputs display_flex">
+        <div class="input_container">
+          <input
+            class="i_email exo_font"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <span id="text"></span>
+        </div>
+        <div class="input_container relative">
+          <input
+            class="i_pass"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <i class="fa-solid fa-eye toggle absolute"></i>
+        </div>
+      </div>
+
+        <div class="option_container">
+          <div class="checkbox_container display_flex">
+            <input
+              class="checkbox"
+              type="checkbox"
+              name="checkbox"
+              id="remember"
+            />
+            <label class="checkbox_remember" for="remember">
+              Remember me
+            </label>
+          </div>
+          <div class="forgot_container open_sans_font">
+            <a href="#"> Forgot password? </a>
+          </div>
+        </div>
+
+        <div class="login_btn">
+          <input class="exo_font" type="submit" value="Log in" />
+        </div>
+
+        <div class="register_options display_flex open_sans_font">
+          <label for="register"> Not registered yet? </label>
+          <a href="#"> Register now </a>
+        </div>
+      </form>
+
+      <div class="alternative open_sans_font relative">
+        <span> or </span>
+      </div>
+
+      <div class="footer exo_font">
+        <div class="social_field relative">
+          <img
+            class="absolute"
+            src="/assets/assets-login/facebook.svg"
+            alt="facebook_logo"
+          />
+          <a class="display_flex" href="#"> Login with Facebook </a>
+        </div>
+        <div class="social_field relative">
+          <img
+            class="absolute"
+            src="/assets/assets-login/twitter.svg"
+            alt="twitter_logo"
+          />
+          <a class="display_flex" href="#"> Login with Twitter </a>
+        </div>
+        <div class="social_field relative">
+          <img
+            class="absolute"
+            src="/assets/assets-login/google.svg"
+            alt="google_logo"
+          />
+          <a class="display_flex" href="#"> Login with Google </a>
+        </div>
+      </div>
+    </div>
+			
+
+		<!-- Carousel -->
+		<div class="carousel">
+			<div class="carousel_item carousel_item-visible">
+				<img src="/assets/images/image1.png" />
+			</div>
+			<div class="carousel_item">
+				<img src="/assets/images/image2.jpeg" />
+			</div>
+			<div class="carousel_item">
+				<img src="/assets/images/image3.jpeg" />
+			</div>
+			<div class="carousel_item">
+				<img src="/assets/images/image4.jpeg" />
+			</div>
+			<div class="carousel_item">
+				<img src="/assets/images/image5.jpeg" />
+			</div>
+			<div class="carousel_item">
+				<img src="/assets/images/image6.jpeg" />
+			</div>
+
+			<div class="carousel_actions absolute">
+				<button id="carousel_button-prev" aria-label="Previous slide">
+					<img
+						src="/assets/assets-login/Prev.svg"
+						alt="Previous carousel button"
+					/>
+				</button>
+				<button id="carousel_button-next" aria-label="Next slide">
+					<img src="/assets/assets-login/Next.svg" alt="Next carousel button" />
+				</button>
+			</div>
+		</div>
+
+		<!-- Dot content -->
+		<div class="dotcontainer absolute">
+			<div class="dot selected"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+		</div>
+
+		<!-- Scripts -->
+    <script src="login.js"></script>
+		<script src="carousel.js".js"></script>
+    <script src="https://kit.fontawesome.com/2e910a4413.js" crossorigin="anonymous"></script>
+	</body>
+</html>

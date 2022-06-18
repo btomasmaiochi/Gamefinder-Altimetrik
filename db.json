@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "email": "btomasmaiochi@gmail.com",
+      "password": "$2a$10$zOqEFXgeHCBf3PmsTe7H7eiVacTvpogd0py/hNQ624KcnkLbmUMVi",
+      "id": 1
+    },
+    {
+      "email": "bruna@gmail.com",
+      "password": "$2a$10$t7sw6djw/oc3TMRMKOnbbevpyLk3zh7IwmX5JuLRooVXR/aveCU2m",
+      "id": 2
+    }
+  ]
+}

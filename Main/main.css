@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo:wght@400;700;800&family=League+Spartan:wght@300;400;500;600&family=Open+Sans&family=PT+Sans&family=Roboto+Serif:opsz,wght@8..144,200&display=swap");
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #121212;
+	color: white;
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: linear-gradient(#5fe19b, #36b972, #0ea152);
+	height: 94px;
+}
+
+header .header-logo {
+	margin: 28.97px 0 30.97px 39.95px;
+}
+
+header .header-logo img {
+	width: 267.1px;
+	height: 34.05px;
+}
+
+header .header-search {
+	position: relative;
+}
+
+header .header-search input {
+	width: 362px;
+	height: 47px;
+	border-radius: 4px;
+	border: none;
+	padding-left: 40px;
+	padding-right: 8px;
+	font-family: "Exo", sans-serif;
+	font-weight: 400;
+	outline: none;
+}
+
+header .header-search img {
+	position: absolute;
+	margin: 15px 11px 14px 11px;
+}
+
+header .header-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 23px 40px;
+}
+
+header .header-item > a {
+	color: #ffffff;
+	text-decoration: none;
+	margin-right: 16px;
+	font-family: "Exo", sans-serif;
+	font-weight: 400;
+}
+
+.content-new-dark {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 19px 40px 31px 40px;
+}
+
+.new-wrapper h1 {
+	width: 400px;
+	height: 65px;
+	font-family: "Exo", sans-serif;
+	font-weight: 800;
+	font-size: 47px;
+	margin-bottom: 2px;
+}
+
+.new-wrapper > p {
+	width: 347px;
+	height: 24px;
+	font-family: "Exo", sans-serif;
+	font-style: normal;
+	line-height: 24px;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.page-content {
+	display: flex;
+}
+
+.dark-mode-wrapper {
+	width: 148px;
+	height: 98px;
+}
+
+.dark-mode-wrapper .dark-mode {
+	width: 86px;
+	height: 39px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.dark-mode-wrapper .on-btn {
+	width: 44px;
+	height: 22px;
+	border-radius: 23px;
+	background-color: #5f81fb;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 140px;
+}
+
+.dark-mode-wrapper .on-btn > p {
+	font-family: "Exo", sans-serif;
+	font-weight: 300;
+	font-size: 9px;
+	margin-left: 4px;
+}
+
+.dark-mode-wrapper .on-circle {
+	width: 18px;
+	height: 18px;
+	background-color: white;
+	border-radius: 50%;
+	margin-left: 4px;
+}
+
+.dark-mode-wrapper .change-cards .change-btn {
+	width: 40px;
+	height: 40px;
+	background-color: #303030;
+	display: inline-block;
+	margin-left: 24px;
+	border-radius: 10px;
+}
+
+.dark-mode-wrapper .change-cards .change-btn .two-cards {
+	margin: 8px 10px;
+}
+
+.dark-mode-wrapper .change-cards .change-btn .one-card {
+	margin: 10.5px 10px;
+}
+
+.display-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.relative {
+	position: relative;
+}
+
+.disable {
+	opacity: 0.5;
+}
+
+aside {
+	width: 263px;
+	height: 600px;
+	background-color: #121212;
+	position: sticky;
+	top: 20px;
+	color: white;
+	margin-left: 40px;
+}
+
+.page-content .first-content {
+	margin-bottom: 37px;
+}
+
+.page-content .first-content > h3 {
+	margin-bottom: 14px;
+}
+
+.page-content .first-content h3:first-child {
+	color: #5fe19b;
+}
+
+.page-content .first-content > h3:hover {
+	color: #5fe19b;
+}
+
+.page-content .second-content {
+	margin-bottom: 55px;
+}
+
+.page-content .second-content .second-align {
+	margin-bottom: 17px;
+	margin-left: 3px;
+	display: flex;
+}
+
+.page-content .second-content img {
+	margin-right: 10px;
+}
+
+.page-content .third-content .third-align {
+	margin-top: 18px;
+	margin-bottom: 17px;
+	margin-left: 3px;
+	display: flex;
+}
+
+.page-content .third-content img {
+	margin-right: 10px;
+}
+
+.page-content .cards_section {
+	width: 80%;
+}
+
+.page-content #cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section {
+	width: 100%;
+	height: 100%;
+	background-color: #121212;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section .box-game {
+	width: 363px;
+	/* height: 314px; */
+	border: 1px solid #303030;
+	margin: 0 24px 24px 0;
+	display: inline-block;
+	background-color: #303030;
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+section .box-game .game-img {
+	object-fit: cover;
+	width: 100%;
+	height: 190.51px;
+}
+
+section .box-game .game-info {
+	background-color: #303030;
+	font-size: 14px;
+	font-family: "Exo", serif;
+	padding-bottom: 18px;
+}
+
+section .box-game .game-name {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 16px;
+	font-size: "Exo", serif;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+section .box-game .game-date .game-release-date {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+section .box-game .game-date .game-release-date,
+.game-generes > p:first-child {
+	font-weight: 500;
+}
+
+section .box-game .game-date {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 16px;
+}
+
+section .box-game .game-date .game-options > img {
+	margin-left: 14.5px;
+}
+
+section .box-game .game-generes {
+	display: flex;
+	margin: 2px 16px;
+}
+
+section .box-game .game-generes .generes {
+	font-weight: 500;
+}
+
+section .box-game .fav-logo {
+	right: 0;
+	margin: 14px;
+}
+.game_color-description {
+	color: #939393;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.d-none {
+	display: none;
+}
+
+.icon {
+	color: white;
+}
+
+@media (min-width: 900px) {
+	#cards {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+.exo_font {
+	font-family: "Exo", sans-serif;
+}
