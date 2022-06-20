@@ -38,6 +38,8 @@ Gamefinder es un proyecto del bootcamp de Altimetrik en el cual tuvimos que desa
 - Opción de columna única para mostrar juegos
 - Modal
 - Responsive
+<img align="right" alt="Bru-gif" height="160" width="160" src="https://i.picasion.com/pic92/4ba47cc0a7ffd9eae2993d53da46bf84.gif">
 
-<a align="right" href="https://www.linkedin.com/in/btomasmaiochi/"> Contratame <img alt="Bru-gif" height="160" width="160" src="https://i.picasion.com/pic92/4ba47cc0a7ffd9eae2993d53da46bf84.gif"> </a>
+
+
 
